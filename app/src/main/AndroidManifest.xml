@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_CONNECT"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="true" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" /><uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.Hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mainproject2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Camera"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz4"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz3"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz2"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Music"
+            android:exported="false" />
+        <activity
+            android:name=".Crazy"
+            android:exported="false" />
+        <activity
+            android:name=".Bluetooth"
+            android:exported="false" />
+        <activity
+            android:name=".Videocamera"
+            android:exported="false" />
+        <activity
+            android:name=".Wifi"
+            android:exported="false" />
+        <activity
+            android:name=".Seven"
+            android:exported="false" />
+        <activity
+            android:name=".Vibrate"
+            android:exported="false" />
+        <activity
+            android:name=".Fifthfeatures"
+            android:exported="false" />
+        <activity
+            android:name=".Fourotp"
+            android:exported="false" />
+        <activity
+            android:name=".Thirdotp"
+            android:exported="false" />
+        <activity
+            android:name=".Secondreg"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
